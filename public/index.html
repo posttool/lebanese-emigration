@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lebanese Emigration</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.7.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.7.1/firebase-functions-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-    <style media="screen">
-    
-    </style>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lebanese Emigration</title>
+
+  <!-- App Styling  & components -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
   <body>
+
     <h1>Lebanese Emigration</h1>
+
     <p>
       <form>
         <table>
           <tr>
-            <td>Field1</td>
+            <td>Village name</td>
             <td><input type="text" name="field1"/></td>
           </tr>
+          <tr>
+            <td>Ancestral name</td>
+            <td><input type="text" name="field2"/></td>
+          </tr>
+          <tr>
+            <td>Emigration year</td>
+            <td><input type="text" name="field3"/></td>
+          </tr>
+          <tr>
+            <td>Destination</td>
+            <td><input type="text" name="field3"/></td>
+          </tr>
+          <tr>
+            <td>Family name in the Americas</td>
+            <td><input type="text" name="field3"/></td>
+          </tr>
         </table>
-        
       </form>
     </p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        console.log("READY")
-      });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
