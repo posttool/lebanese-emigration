@@ -1,0 +1,25 @@
+HEY YOU KNOW GOOG
+
+How to start the local web server to test your work ->
+
+1. go to the terminal app
+2. change directory to lebanese-emigration
+3. and start the emulator
+
+    cd lebanese-emigration
+    firebase emulator:start
+
+4. Press control c to stop the local server (or just shut down)
+
+
+How to push your changes to the github repo (necessary if you want to work with others)
+
+1. go to the sourcetree app
+2. click commit changes
+3. write a commit comment e.g. added a field to the db
+4. commit!
+
+How to pull your changes
+
+1. go the the sourcetree app
+2. click pull
