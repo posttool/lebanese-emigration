@@ -6,7 +6,7 @@
 2. change directory to lebanese-emigration
 3. and start the emulator
 
-    cd lebanese-emigration
+    cd /Users/rgk/Desktop/lebanese-emigration
     firebase emulator:start
 
 4. press command-T to open a new terminal window in the same directory
@@ -14,12 +14,16 @@
 
     npm run start
 
-6. Press control c to stop the local server (or just shut down)
+6. Press control-C to stop the local server (or close the terminal / shut down)
 
 ## How to view the website
 
 1. open your web browser
 2. visit http://localhost:5000/
+
+## How to edit the HTML & Javascript
+
+The main files are public/index.html and src/index.js
 
 ## How to debug
 

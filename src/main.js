@@ -15,3 +15,8 @@ if (window.location.hostname.includes("localhost")) {
 }
 
 console.log("READY");
+var form = document.getElementById("mainForm");
+form.onsubmit = (e) => {
+    e.preventDefault();
+    console.log("HEY");
+}

@@ -18,29 +18,38 @@
     <h1>Lebanese Emigration</h1>
 
     <p>
-      <form>
+      <form id="mainForm">
         <table>
           <tr>
-            <td>Village name</td>
-            <td><input type="text" name="field1"/></td>
+            <td>Ancestral village name <br> (Romanized and/or original Arabic)</td>
+            <td><input type="text" name="Village"/></td>
           </tr>
           <tr>
-            <td>Ancestral name</td>
-            <td><input type="text" name="field2"/></td>
+            <td>Ancestral family name  <br> (Romanized and/or original Arabic)</td>
+            <td><input type="text" name="ArabFamName"/></td>
           </tr>
           <tr>
             <td>Emigration year</td>
-            <td><input type="text" name="field3"/></td>
+            <td><input type="number" name="EmgYear"/></td>
           </tr>
           <tr>
-            <td>Destination</td>
-            <td><input type="text" name="field3"/></td>
+            <td>Initial destination</td>
+            <td><input type="text" name="InitDest"/></td>
+          </tr>
+          <tr>
+            <td>Final destination</td>
+            <td><input type="text" name="FinalDest"/></td>
           </tr>
           <tr>
             <td>Family name in the Americas</td>
-            <td><input type="text" name="field3"/></td>
+            <td><input type="text" name="AmerFamName"/></td>
+          </tr>
+          <tr>
+            <td>Contact</td>
+            <td><input type="email" name="Email"/></td>
           </tr>
         </table>
+        <input type="submit">
       </form>
     </p>
 
